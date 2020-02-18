@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c90daae-07eb-43bc-b25a-911262eaef77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Reverse Integer.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1XuQSrxI54i3Fxd2MD1RXYpyRGh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Qwiz/qwiz-client" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c90daae-07eb-43bc-b25a-911262eaef77" name="Default Changelist" comment="" />
+      <created>1581893699279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581893699279</updated>
+      <workItem from="1581893700443" duration="1352000" />
+      <workItem from="1581942557195" duration="6021000" />
+      <workItem from="1582034817629" duration="2664000" />
+      <workItem from="1582051077602" duration="1224000" />
+      <workItem from="1582057423692" duration="106000" />
+      <workItem from="1582057541227" duration="130000" />
+      <workItem from="1582057681005" duration="50000" />
+      <workItem from="1582057742078" duration="2317000" />
+      <workItem from="1582060231873" duration="227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1582057451668">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582057451668" />
+    <state x="1820" y="174" key="SettingsEditor" timestamp="1582060200500">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1820" y="174" key="SettingsEditor/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582060200500" />
+    <state x="2099" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581893786778">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2099" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581893786778" />
   </component>
 </project>
