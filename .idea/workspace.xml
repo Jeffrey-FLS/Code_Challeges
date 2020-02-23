@@ -4,8 +4,11 @@
     <list default="true" id="9c90daae-07eb-43bc-b25a-911262eaef77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/7. Reverse Integer/7.Reverse_Integer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/7. Reverse Integer/7.Reverse_Integer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/69. Sqrt(x)/69.Sqrt(x).js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/69. Sqrt(x)/69.Sqrt(x).test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/7. Reverse Integer/7.Reverse_Integer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/7. Reverse Integer/7.Reverse_Integer.test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Testingrounds/my-app-jsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio_2.0/portfolio_2.0-client" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -62,7 +65,9 @@
       <workItem from="1582057742078" duration="2317000" />
       <workItem from="1582060231873" duration="1977000" />
       <workItem from="1582138829612" duration="503000" />
-      <workItem from="1582219788075" duration="1327000" />
+      <workItem from="1582219788075" duration="3708000" />
+      <workItem from="1582379674591" duration="194000" />
+      <workItem from="1582470330061" duration="241000" />
     </task>
     <servers />
   </component>
@@ -70,10 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1582138869866">
+    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1582379865399">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582138869866" />
+    <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582379865399" />
     <state x="1820" y="174" key="SettingsEditor" timestamp="1582060200500">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
