@@ -1,6 +1,8 @@
+
 'use strict';
 
 const fs = require('fs');
+
 
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -26,7 +28,9 @@ function readLine() {
 
 // Complete the sockMerchant function below.
 function sockMerchant(n, ar) {
-
+    if(1 <= n <=100) {
+        for(let i = 0; )
+    }
 
 }
 
@@ -43,3 +47,20 @@ function main() {
 
     ws.end();
 }
+
+export {
+    sockMerchant
+}
+
+// const fs = require('fs')
+// // import {fs} from 'fs';
+//
+// const path = './testfile.txt'
+//
+// try {
+//     if (fs.existsSync(path)) {
+//         console.log("IT EXISTSSSSSSS");
+//     }
+// } catch(err) {
+//     console.error(err)
+// }
