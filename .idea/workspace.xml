@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c90daae-07eb-43bc-b25a-911262eaef77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/5.counting_closed_paths/5.counting_closed_paths.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/5.counting_closed_paths/5.counting_closed_paths.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <workItem from="1582478109342" duration="2327000" />
       <workItem from="1582546971045" duration="1317000" />
       <workItem from="1582633457111" duration="9731000" />
-      <workItem from="1582727782566" duration="11295000" />
+      <workItem from="1582727782566" duration="12048000" />
     </task>
     <servers />
   </component>
