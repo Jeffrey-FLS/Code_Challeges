@@ -27,11 +27,25 @@ function readLine() {
 }
 
 // Complete the sockMerchant function below.
-function sockMerchant(n, ar) {
-    if(1 <= n <=100) {
-        for(let i = 0; )
+export function sockMerchant(n, ar) {
+    const objAr = ar.reduce((obj, arNum) => {
+        obj[arNum] = ++obj[arNum] || 1;
+        return obj;
+    }, {});
+
+    let sum = 0;
+
+    for (const key in objAr) {
+        const intKey = objAr[key];
+
+        if (intKey % 2 === 0) {
+                sum = sum + (intKey / 2)
+            } else if (intKey > 1) {
+                sum = sum + (intKey - 1) / 2;
+            }
     }
 
+    return sum;
 }
 
 function main() {
@@ -47,20 +61,3 @@ function main() {
 
     ws.end();
 }
-
-export {
-    sockMerchant
-}
-
-// const fs = require('fs')
-// // import {fs} from 'fs';
-//
-// const path = './testfile.txt'
-//
-// try {
-//     if (fs.existsSync(path)) {
-//         console.log("IT EXISTSSSSSSS");
-//     }
-// } catch(err) {
-//     console.error(err)
-// }
