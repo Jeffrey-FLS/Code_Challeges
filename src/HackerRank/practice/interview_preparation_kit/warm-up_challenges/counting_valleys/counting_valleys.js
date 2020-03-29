@@ -1,45 +1,52 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
+// for (let i = 0; i < n; i++) {
+//     if (arrStrPath[i] === "D" && prevPath.length === 1) {
+//       valleyCount++;
+//       prevPath = prevPath + "D";
+//     } else if (arrStrPath[i] === "D" && !prevPath) {
+//       prevPath = "D";
+//     } else {
+//       prevPath = "";
+//     }
+//   }
 
-process.stdin.resume();
-process.stdin.setEncoding('utf-8');
-
-let inputString = '';
-let currentLine = 0;
-
-process.stdin.on('data', inputStdin => {
-    inputString += inputStdin;
-});
-
-process.stdin.on('end', _ => {
-    inputString = inputString.replace(/\s*$/, '')
-        .split('\n')
-        .map(str => str.replace(/\s*$/, ''));
-
-    main();
-});
-
-function readLine() {
-    return inputString[currentLine++];
-}
+// const valleyCountCalc = (previousPath, newPath) => {
+//     if (newPath === )
+// }
 
 // Complete the countingValleys function below.
 export function countingValleys(n, s) {
+  let declineValleyCount = 0;
+  let inclineValleyCount = 0;
+  let prevPath = "";
+  const arrStrPath = s.split("");
 
+  for (let i = 0; i < n; i++) {
+    if (arrStrPath[i] === "U" && prevPath === "U") {
+      declineValleyCount++;
+      prevPath = prevPath + "U";
+      continue;
+    }
 
+    if (arrStrPath[i] === "D" && prevPath === "D") {
+      inclineValleyCount++;
+      prevPath = prevPath + "D";
+      continue;
+    }
+
+    prevPath = arrStrPath[i];
+  }
+
+  // QUOKKA TESTS
+  declineValleyCount;
+  inclineValleyCount;
+  prevPath;
+  arrStrPath;
+  // ----------------------------------------------------------------
+
+  return Math.abs(inclineValleyCount - declineValleyCount);
 }
 
-function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
-
-    const n = parseInt(readLine(), 10);
-
-    const s = readLine();
-
-    let result = countingValleys(n, s);
-
-    ws.write(result + "\n");
-
-    ws.end();
-}
+console.log(countingValleys(12, "DDUUDDUDUUUD"));
+// console.log(countingValleys(10, "UDUUUDUDDD"));

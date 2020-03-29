@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c90daae-07eb-43bc-b25a-911262eaef77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.4.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/counting_valleys/counting_valleys.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/counting_valleys/counting_valleys.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/practice/interview_preparation_kit/warm-up_challenges/sock_merchant/sock_merchant.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.10.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio_2.0/portfolio_2.0-client" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -71,7 +68,7 @@
       <workItem from="1582633457111" duration="9731000" />
       <workItem from="1582727782566" duration="12179000" />
       <workItem from="1582814024559" duration="107000" />
-      <workItem from="1582814142205" duration="293000" />
+      <workItem from="1582814142205" duration="1381000" />
     </task>
     <servers />
   </component>
@@ -83,10 +80,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2014" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.24.1366.744/1366.0.1920.1080/3286.0.900.1600@1366.0.1920.1080" timestamp="1582814080360" />
-    <state x="2112" y="296" width="374" height="343" key="FileChooserDialogImpl" timestamp="1582757657617">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state x="531" y="228" width="424" height="482" key="FileChooserDialogImpl" timestamp="1582821338781">
+      <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="531" y="228" key="FileChooserDialogImpl/0.24.1366.744/1366.0.1920.1080/3286.0.900.1600@0.24.1366.744" timestamp="1582648258337" />
+    <state x="531" y="228" width="424" height="482" key="FileChooserDialogImpl/0.24.1366.744/1366.0.1920.1080/3286.0.900.1600@0.24.1366.744" timestamp="1582821338781" />
     <state x="2112" y="296" key="FileChooserDialogImpl/0.24.1366.744/1366.0.1920.1080/3286.0.900.1600@1366.0.1920.1080" timestamp="1582757657617" />
     <state x="531" y="523" width="374" height="343" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@0.312.1366.768" timestamp="1582568223394" />
     <state x="2113" y="297" width="424" height="482" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582379865399" />
