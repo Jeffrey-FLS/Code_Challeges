@@ -2,21 +2,44 @@
 
 // Complete the jumpingOnClouds function below.
 function jumpingOnClouds(c) {
-    const arrIntCloudPath = [...c+''].map(n => +n);
-    let arrIntPath = [];
-    // let pathCount = 0;
+    // const arrIntCloudPath = [...c+''].map(n => +n);
+    const strCloudPath = c.toString();
+    let arrIntCloudPath = [];
+    let jumpCount = 0;
 
-    arrIntCloudPath.filter((val, index) => (!val && index % 2 === 0) && arrIntPath.push(index));
+    for (let i = 0; i < strCloudPath.length; i++) {
+        arrIntCloudPath.push(+strCloudPath.charAt(i))
+    } 
+
+
+
+    // arrIntCloudPath.filter((val, index) => (!val && index % 2 === 0) && arrIntPath.push(index));
     // arrIntCloudPath.filter((val, index) => (!val) && arrIntPath.push(index));
 
-    // pathCount.filter
-    
+
+
+    for (let i = 0; i < c.length; i++) {
+
+        console.log(arrIntCloudPath[i]);
+        jumpCount;
+        i;
+
+        if (arrIntCloudPath[i] === 0 && arrIntCloudPath[i + 1] === 0) {
+            jumpCount++;
+            i++;
+        } else if (arrIntCloudPath[i + 1] === 0) {
+            jumpCount++;
+        } else {
+            continue;
+        }
+    }
 
     // QUOKKA TESTS
+    strCloudPath;
     arrIntCloudPath;
-    arrIntPath;
+    jumpCount;
 
-    return arrIntPath.length;
+    return jumpCount;
 }
 
 // Sample Test Cases
