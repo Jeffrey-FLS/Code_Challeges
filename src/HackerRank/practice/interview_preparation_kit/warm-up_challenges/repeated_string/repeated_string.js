@@ -4,35 +4,49 @@
 function repeatedString(str, num) {
   const dividend = parseInt(num / str.length);
   const stringLength = str.length;
-    let arrNewStr = [];
+  let arrNewStr = [];
   let charACount = 0;
 
-  for (let i = 0; i < num; i++) {
+  console.log(str.length);
+
+  // Populate new string arrNewStr
+  //
+
+  for (let i = 0; i <= num; 0) {
     // let k = 0;
 
     // while (k < str.length || i < num) {
 
     // }
 
+    i;
 
     for (let k = 0; k < str.length; k++) {
-      k;
+      // QUOKKA TESTS ----------------------------------------------------------
+      // k;
 
-      ++i;
+      // str;
 
-      arrNewStr.push(str.charAt(k))
+      // console.log(arrNewStr);
 
+      // charACount;
 
-      if (str.charAt(k) === "a") {
+      // console.log(str.charAt(k));
+
+      // i;
+      // -----------------------------------------------------------------------
+
+      arrNewStr.push(str.charAt(k));
+
+      if (i === num) {
+        break;
+      } else if (str.charAt(k) === "a") {
         charACount++;
-      } else if (i < num) {
-          break;
       }
 
-      charACount;
-      console.log(str.charAt(k));
-      i;
-    }
+      i++;
+    } // end for loop
+
     i;
   }
 
@@ -51,6 +65,6 @@ function repeatedString(str, num) {
   return charACount;
 }
 
-console.log(repeatedString("abcac", 10)); // Expected 4
-// repeatedString("aba", 10) // Expected 7
+// console.log(repeatedString("abcac", 10)); // Expected 4
+console.log(repeatedString("aba", 10)); // Expected 7
 // repeatedString("a", 1000000000000) // Expected 1000000000000
