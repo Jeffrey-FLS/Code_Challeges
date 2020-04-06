@@ -1,5 +1,7 @@
 "use strict";
 
+// For Git Commit
+
 // Complete the repeatedString function below.
 function repeatedString(str, num) {
   const dividend = parseInt(num / str.length);
