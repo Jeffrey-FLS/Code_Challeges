@@ -38,9 +38,7 @@ function repeatedString(str, num) {
   str.split("").forEach(ele => (ele === "a") && amountOfA++);
   charACount = dividend * amountOfA;
 
-  str.slice(0, difference).split("").forEach(ele => (ele === "a") && amountOfA++);
-  
-
+  str.slice(0, difference).split("").forEach(ele => (ele === "a") && charACount++);
   (difference) && newStr.push(str.slice(0, difference));  
   // ---------------------------------------------------------------------------
 
@@ -55,7 +53,7 @@ function repeatedString(str, num) {
   return charACount;
 }
 
-// console.log(repeatedString("abcac", 10)); // Expected 4
+console.log(repeatedString("abcac", 10)); // Expected 4
 console.log(repeatedString("aba", 10)); // Expected 7
-// console.log(repeatedString("a", 1000)) // Expected 1000000000000
-// console.log(repeatedString("a", 1000000000000)) // Expected 1000000000000
+console.log(repeatedString("a", 1000)) // Expected 1000000000000
+console.log(repeatedString("a", 1000000000000)) // Expected 1000000000000
