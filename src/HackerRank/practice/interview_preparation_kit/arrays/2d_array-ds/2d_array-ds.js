@@ -22,15 +22,33 @@ function hourglassSum(arr) {
         } 
     }
 
-    arr2D.forEach((arr, i) => {
+    for (let i=0; i < (arr2D.length - 1); i++) {
         let sum = 0;
 
-        for (let k=0; k < arr.length; k++) {
-            if (k !== 3 || k !== 5) {sum += arr[k]}
+        
+
+        for (let k=0; k < (arr.length - 1); k++) {
+            k;
+
+            for (let m=k; m < 3; m++) {
+                m;
+                sum += arr2D[i][m];
+            }
+
+            sum += arr2D[i+1][k+1];
+            
+
+            // if (k !== 3) {sum = sum + arr2D[i][k]}
+            // if (k !== 3) {sum = sum + arr2D[i][k]}
         };
 
+
+        // for (let k=0; k < arr.length; k++) {
+        //     if (k !== 3 || k !== 5) {sum += arr[k]}
+        // };
+
         arr2DSum.push(sum);
-    });
+    };
 
 
 
