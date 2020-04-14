@@ -4,8 +4,38 @@
 
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
-    
+    let arr2D = [];
+    let arrPosition = 0;
+    let arr2DSum = [];
 
+
+    for (let i=0; i < 6; i++) {
+        arr2D.push(new Array(6))
+    };
+
+    // let arr2D = [new Array(6), new Array(6)];
+
+    for (let i=0; i < arr2D.length; i++) {
+        for (let k=0; k < arr2D[i].length; k++) {
+            arr2D[i][k] = arr[arrPosition];
+            arrPosition++;
+        } 
+    }
+
+    arr2D.forEach((arr, i) => {
+        let sum = 0;
+
+        for (let k=0; k < arr.length; k++) {
+            if (k !== 3 || k !== 5) {sum += arr[k]}
+        };
+
+        arr2DSum.push(sum);
+    });
+
+
+
+    arr2D;
+    arr2DSum;
 
 }
 
