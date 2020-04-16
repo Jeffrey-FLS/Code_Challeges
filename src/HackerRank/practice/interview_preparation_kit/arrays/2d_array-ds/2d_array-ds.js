@@ -1,11 +1,12 @@
 "use strict";
 
+// Pushing to git
+
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
     let arr2D = [];
     let arrPosition = 0;
     let arr2DSum = [];
-
 
     for (let i=0; i < 6; i++) {
         arr2D.push(new Array(6))
