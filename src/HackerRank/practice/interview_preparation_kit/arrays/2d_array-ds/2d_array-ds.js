@@ -1,7 +1,5 @@
 "use strict";
 
-// Pushing to commit
-
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
     let arr2D = [];
@@ -33,10 +31,14 @@ function hourglassSum(arr) {
             for (let m=k; m < 3; m++) {
                 m;
                 sum += arr2D[i][m];
+                sum;
             }
+
+            arr2D[i][k];
 
             sum += arr2D[i+1][k+1];
             
+            console.log(sum);
 
             // if (k !== 3) {sum = sum + arr2D[i][k]}
             // if (k !== 3) {sum = sum + arr2D[i][k]}
