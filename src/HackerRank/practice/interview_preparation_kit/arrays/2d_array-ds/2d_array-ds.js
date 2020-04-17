@@ -21,21 +21,22 @@ function hourglassSum(arr) {
         } 
     }
 
-    for (let i=0; i < (arr2D.length - 1); i++) {
+    for (let i=0; i < (arr2D.length - 2); i++) {
         let sum = 0;
 
-        
+        console.log(arr2D[i].length);
 
-        for (let k=0; k < (arr.length - 1); k++) {
+        for (let k=0; k < (arr2D.length - 1); k++) {
             k;
 
             for (let m=k; m < 3; m++) {
                 m;
                 sum += arr2D[i][m];
+                sum += arr2D[i+2][m];
                 sum;
             }
 
-            arr2D[i][k];
+            console.log(arr2D[i][k]);
 
             sum += arr2D[i+1][k+1];
             
@@ -43,6 +44,9 @@ function hourglassSum(arr) {
 
             // if (k !== 3) {sum = sum + arr2D[i][k]}
             // if (k !== 3) {sum = sum + arr2D[i][k]}
+
+        arr2DSum.push(sum);
+
         };
 
 
@@ -50,14 +54,15 @@ function hourglassSum(arr) {
         //     if (k !== 3 || k !== 5) {sum += arr[k]}
         // };
 
-        arr2DSum.push(sum);
+        // arr2DSum.push(sum);
     };
 
 
 
     arr2D;
-    arr2DSum;
+    console.log(arr2DSum.length);
 
+    return Math.max(...arr2DSum);
 }
 
 console.log(hourglassSum([1,1,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,2,4,4,0,0,0,0,2,0,0,0,0,1,2,4,0])); // Expect 19
