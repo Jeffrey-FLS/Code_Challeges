@@ -5,6 +5,7 @@
 function hourglassSum(arr) {
     let arr2D = [];
     let arrPosition = 0;
+    let arrHourglass = [];
     let arr2DSum = [];
 
     for (let i=0; i < 6; i++) {
@@ -28,12 +29,23 @@ function hourglassSum(arr) {
         for (let k=0; k < (arr2D.length - 1); k++) {
             k;
 
+            arrHourglass[k]
+
             for (let m=k; m < 3; m++) {
                 m;
                 sum += arr2D[i][m];
                 sum += arr2D[i+2][m];
                 sum;
             }
+
+
+
+            // for (let m=k; m < 3; m++) {
+            //     m;
+            //     sum += arr2D[i][m];
+            //     sum += arr2D[i+2][m];
+            //     sum;
+            // }
 
             console.log(arr2D[i][k]);
 
