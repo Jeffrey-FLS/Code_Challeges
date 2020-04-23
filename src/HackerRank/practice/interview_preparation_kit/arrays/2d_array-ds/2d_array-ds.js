@@ -1,5 +1,7 @@
 "use strict";
 
+// Pushing
+
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
     let arr2D = [];
@@ -66,7 +68,7 @@ function hourglassSum(arr) {
             // if (k !== 3) {sum = sum + arr2D[i][k]}
 
         // arr2DSum.push(sum);
-
+        arr2DHourglass.push(arrHourglass);
         };
 
 
@@ -77,7 +79,7 @@ function hourglassSum(arr) {
         // arr2DSum.push(sum);
     };
 
-    arrHourglass;
+    arr2DHourglass;
 
     arr2D;
     console.log(arr2DSum.length);
