@@ -1,8 +1,6 @@
 
 "use strict";
 
-// Pushing to Git
-
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
   let arr2D = [];
