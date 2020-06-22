@@ -1,7 +1,7 @@
 
 "use strict";
 
-// Pushing to Git 
+// Pushing to 
 
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
